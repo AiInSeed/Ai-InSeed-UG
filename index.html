@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai InSeed - Elevating Hospitality with Intelligent Service</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Apply Inter font globally */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Simple scrollspy effect */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Active nav link styling (optional) */
+        .nav-active {
+            font-weight: 600;
+            /* Add other active styles */
+        }
+        /* Ensure footer stays at the bottom */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        main {
+            flex-grow: 1;
+        }
+        /* Style for placeholder logo if needed */
+        .logo-placeholder {
+            height: 40px; /* Adjust height as needed */
+            width: auto;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#">
+                <img src="https://placehold.co/150x40/007bff/ffffff?text=Ai+InSeed&font=inter" alt="Ai InSeed Logo" class="logo-placeholder">
+                </a>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="#about" class="text-gray-600 hover:text-blue-600 transition duration-300">About</a>
+                <a href="#solutions" class="text-gray-600 hover:text-blue-600 transition duration-300">Solutions</a>
+                <a href="#pricing" class="text-gray-600 hover:text-blue-600 transition duration-300">Pricing</a>
+                <a href="#why-us" class="text-gray-600 hover:text-blue-600 transition duration-300">Why Us</a>
+                <a href="#team" class="text-gray-600 hover:text-blue-600 transition duration-300">Team</a>
+                <a href="#contact" class="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300">Contact Us</a>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-600 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="md:hidden hidden bg-white py-2">
+            <a href="#about" class="block px-6 py-2 text-gray-600 hover:bg-gray-100">About</a>
+            <a href="#solutions" class="block px-6 py-2 text-gray-600 hover:bg-gray-100">Solutions</a>
+            <a href="#pricing" class="block px-6 py-2 text-gray-600 hover:bg-gray-100">Pricing</a>
+            <a href="#why-us" class="block px-6 py-2 text-gray-600 hover:bg-gray-100">Why Us</a>
+            <a href="#team" class="block px-6 py-2 text-gray-600 hover:bg-gray-100">Team</a>
+            <a href="#contact" class="block px-6 py-2 bg-blue-600 text-white text-center rounded-lg mx-4 my-2 hover:bg-blue-700">Contact Us</a>
+        </div>
+    </nav>
+
+    <main>
+        <header class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4">Elevating Hospitality with Intelligent Service</h1>
+                <p class="text-lg md:text-xl mb-8">The 24/7 AI Front Desk That Books Rooms, Answers Questions, and Never Sleeps.</p>
+                <a href="#solutions" class="bg-white text-blue-600 font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition duration-300">Discover Our Solutions</a>
+            </div>
+        </header>
+
+        <section id="about" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">About Ai InSeed</h2>
+                <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold mb-3 text-blue-600">Our Mission</h3>
+                        <p class="text-gray-700">To integrate AI solutions that enhance guest experiences and elevate service quality, helping hospitality businesses grow by reducing operational strain, empowering staff, and creating unforgettable, personalized guest journeys.</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold mb-3 text-blue-600">Our Vision</h3>
+                        <p class="text-gray-700">A world where technology and human hospitality blend seamlessly, creating spaces where every guest feels valued and every staff member is empowered. We aim to be the trusted partner for innovative hospitality leaders.</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold mb-3 text-blue-600">Who We Help</h3>
+                        <p class="text-gray-700">We provide high-impact AI solutions exclusively for hospitality businesses: hotels, restaurants, spas, wellness centers, and Airbnb hosts, transforming service into an AI-assisted, emotion-driven experience.</p>
+                    </div>
+                </div>
+                 <div class="text-center mt-12">
+                    <p class="text-xl italic text-gray-600">"It's not what we did for them, it's how we made them feel."</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="solutions" class="py-16 md:py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">Our Intelligent Solutions</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <h3 class="text-xl font-semibold mb-3 text-blue-600">AI Concierge Chatbot</h3>
+                        <p class="text-gray-700">Handles bookings and guest inquiries 24/7, directly increasing your direct bookings and guest satisfaction.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <h3 class="text-xl font-semibold mb-3 text-blue-600">AI Voice Assistant</h3>
+                        <p class="text-gray-700">Automates phone calls, room service orders, and answers FAQs, significantly reducing front-desk workload.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <h3 class="text-xl font-semibold mb-3 text-blue-600">Smart QR Menu System</h3>
+                        <p class="text-gray-700">Intelligently upsells meals, spa services, and more, boosting ancillary revenue without needing extra staff.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <h3 class="text-xl font-semibold mb-3 text-blue-600">Staff Training & Integration</h3>
+                        <p class="text-gray-700">Provides white-glove integration and comprehensive staff training to ensure seamless adoption and immediate results.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <h3 class="text-xl font-semibold mb-3 text-blue-600">Analytics & ROI Optimization</h3>
+                        <p class="text-gray-700">We demonstrate value through data: tracking increased bookings, labor savings, and higher guest spend.</p>
+                    </div>
+                     <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <h3 class="text-xl font-semibold mb-3 text-blue-600">Custom AI Solutions</h3>
+                        <p class="text-gray-700">Tailored AI implementations to meet the unique challenges and goals of your hospitality business.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <section id="pricing" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900">AI Duo Concierge Package</h2>
+                <p class="text-center text-lg text-gray-600 mb-12 max-w-3xl mx-auto">Our flagship package designed for mid-size hotels (30-100 rooms), properties with international guests, and those aiming to boost direct bookings efficiently.</p>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="border border-gray-200 rounded-lg p-6 shadow-sm flex flex-col">
+                        <h3 class="text-2xl font-semibold mb-4 text-center text-blue-600">Starter AI Duo</h3>
+                        <p class="text-center text-gray-500 mb-6">Essential AI Assistance</p>
+                        <p class="text-4xl font-bold text-center mb-1 text-gray-900">€10,000</p>
+                        <p class="text-center text-gray-500 mb-6">One-time investment</p>
+                        <ul class="space-y-3 text-gray-700 mb-8 flex-grow">
+                            <li>✓ Chatbot Setup</li>
+                            <li>✓ Voice Agent Setup</li>
+                            <li>✓ Standard FAQ Scripts</li>
+                        </ul>
+                        <a href="#contact" class="mt-auto bg-blue-100 text-blue-700 font-semibold py-3 px-6 rounded-lg text-center hover:bg-blue-200 transition duration-300">Get Started</a>
+                    </div>
+
+                    <div class="border-2 border-blue-600 rounded-lg p-6 shadow-lg flex flex-col relative">
+                        <span class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-full">Most Popular</span>
+                        <h3 class="text-2xl font-semibold mb-4 text-center text-blue-600">Growth Booster</h3>
+                        <p class="text-center text-gray-500 mb-6">Enhanced Integration & Support</p>
+                        <p class="text-4xl font-bold text-center mb-1 text-gray-900">€15,000</p>
+                        <p class="text-center text-gray-500 mb-1">+ €299/month</p>
+                        <p class="text-center text-gray-500 mb-6">One-time + Subscription</p>
+                        <ul class="space-y-3 text-gray-700 mb-8 flex-grow">
+                            <li>✓ All Starter Features</li>
+                            <li>✓ PMS Integration</li>
+                            <li>✓ Multilingual Support</li>
+                            <li>✓ 3-Month Support</li>
+                        </ul>
+                        <a href="#contact" class="mt-auto bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg text-center hover:bg-blue-700 transition duration-300">Choose Growth</a>
+                    </div>
+
+                    <div class="border border-gray-200 rounded-lg p-6 shadow-sm flex flex-col">
+                        <h3 class="text-2xl font-semibold mb-4 text-center text-blue-600">Pro Concierge</h3>
+                        <p class="text-center text-gray-500 mb-6">Advanced Features & Optimization</p>
+                        <p class="text-4xl font-bold text-center mb-1 text-gray-900">€20,000</p>
+                        <p class="text-center text-gray-500 mb-1">+ €499/month</p>
+                        <p class="text-center text-gray-500 mb-6">One-time + Subscription</p>
+                        <ul class="space-y-3 text-gray-700 mb-8 flex-grow">
+                            <li>✓ All Growth Features</li>
+                            <li>✓ Sentiment Tuning</li>
+                            <li>✓ Upsell Triggers</li>
+                            <li>✓ Live Agent Fallback</li>
+                        </ul>
+                        <a href="#contact" class="mt-auto bg-blue-100 text-blue-700 font-semibold py-3 px-6 rounded-lg text-center hover:bg-blue-200 transition duration-300">Go Pro</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-us" class="py-16 md:py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">Why Choose Ai InSeed?</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                         <svg class="w-12 h-12 mx-auto mb-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <h3 class="text-xl font-semibold mb-3">Reduce Costs</h3>
+                        <p class="text-gray-700">Solve painful staff shortages and significantly reduce operational costs.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <svg class="w-12 h-12 mx-auto mb-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                        <h3 class="text-xl font-semibold mb-3">Boost Revenue</h3>
+                        <p class="text-gray-700">Increase income through automated upselling and 24/7 booking conversion.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                         <svg class="w-12 h-12 mx-auto mb-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <h3 class="text-xl font-semibold mb-3">Delight Guests</h3>
+                        <p class="text-gray-700">Offer fast, consistent, and personalized service that enhances guest satisfaction.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <svg class="w-12 h-12 mx-auto mb-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        <h3 class="text-xl font-semibold mb-3">Empower Team</h3>
+                        <p class="text-gray-700">Provide intuitive tech that complements your staff's role, not replaces it.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">Meet Our Team</h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div class="mb-8">
+                        <img src="https://placehold.co/150x150/e2e8f0/64748b?text=SA" alt="Samedi Amba" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-md">
+                        <h4 class="text-lg font-semibold text-gray-800">Samedi Amba</h4>
+                        <p class="text-gray-600">Sales & Marketing Manager</p>
+                    </div>
+                    <div class="mb-8">
+                        <img src="https://placehold.co/150x150/e2e8f0/64748b?text=DL" alt="Dimitri Lazovski" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-md">
+                        <h4 class="text-lg font-semibold text-gray-800">Dimitri Lazovski</h4>
+                        <p class="text-gray-600">Project Manager</p>
+                    </div>
+                    <div class="mb-8">
+                        <img src="https://placehold.co/150x150/e2e8f0/64748b?text=MAS" alt="Mohamed Aski Saheel" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-md">
+                        <h4 class="text-lg font-semibold text-gray-800">Mohamed Aski Saheel</h4>
+                        <p class="text-gray-600">Software Engineer</p>
+                    </div>
+                    <div class="mb-8">
+                        <img src="https://placehold.co/150x150/e2e8f0/64748b?text=AT" alt="Aliyan Taimur" class="w-32 h-32 rounded-full mx-auto mb-4 shadow-md">
+                        <h4 class="text-lg font-semibold text-gray-800">Aliyan Taimur</h4>
+                        <p class="text-gray-600">Junior Software Engineer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-16 md:py-24 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Get in Touch</h2>
+                <p class="text-center text-lg mb-12 max-w-2xl mx-auto">Ready to elevate your guest experience? Contact us today to learn how Ai InSeed can transform your hospitality business.</p>
+                <form action="#" method="POST" class="max-w-xl mx-auto bg-white text-gray-800 p-8 rounded-lg shadow-xl">
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
+                        <input type="text" id="name" name="name" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                        <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                     <div class="mb-4">
+                        <label for="hotel" class="block text-gray-700 font-medium mb-2">Hotel/Business Name</label>
+                        <input type="text" id="hotel" name="hotel" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                    <div class="mb-6">
+                        <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                        <textarea id="message" name="message" rows="4" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-700 transition duration-300">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-gray-400 py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 Ai InSeed. All rights reserved.</p>
+            <p class="text-sm mt-2">Seeding Intelligence, Growing Innovation.</p>
+            </div>
+    </footer>
+
+    <script>
+        const menuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Optional: Close menu when a link is clicked
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+
+</body>
+</html>
