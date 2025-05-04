@@ -67,3 +67,25 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+.tier {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.tier h3 {
+    margin-top: 0;
+    color: #0056b3; /* A slightly darker blue */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
